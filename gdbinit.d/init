@@ -1,0 +1,5 @@
+set breakpoint pending on
+set confirm off
+set disassembly-flavor intel
+dashboard source -style height 40
+dashboard -layout !registers !assembly source variables stack
